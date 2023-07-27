@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,200;1,200&display=swap');
+ul{
+    display: flex;
+    list-style: none;   
+}
+ul li{
+    margin: 0px 10px;
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+opacity: 40%;
+color: #151439;
+}
+a{
+    text-decoration: none;
+}
+.navDesign{
+  
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.logo a{
+    color: #1E0E62;
+    font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btnLogin{
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+color: #25DAC5;
+border: none;
+background: white;
+margin-right: 15px;
+}
+.btnSign{
+    background: #25DAC5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.content{
+    margin: 50px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.content h1 {
+  
+    font-family: DM Sans;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+color: #1E0E62;
+}
+.content h2{
+    
+    font-family: DM Sans;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+color: #1E0E62;
+
+}
+.content span{
+    width: 360px;
+    text-align: center;
+    margin-top: 30px;
+}
+.createAcc button{
+    background: #E93A7D;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    margin-top: 40px;
+    font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.cards{
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.cardContent{
+    width: 200px;
+    text-align: center;
+}
+.cardContent span{
+    font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+color: rgba(21, 20, 57, 0.40);
+}
+.imgWrapper{
+    margin-bottom: 10px;
+}
+.imgContents{
+    /* width: 80%; 
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    justify-content: space-between; */
+    width: 80%;
+    margin: auto;
+    columns: 3 370px;
+    column-gap: auto;
+break-inside: avoid;
+/* display: grid;
+break-inside: avoid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: auto; */
+margin-top: 50px;
+}
+img{
+    width: 100%;
+}
+.backGround{
+    background: url(Background.png);
+    min-height: 99vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #1E0E62;
+}
+.form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    break-inside: avoid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: auto;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 99vh;
+    
+}
+.left h2{
+    font-family: DM Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+}
+.left p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+width: 300px;
+margin-top: 20px
+}
+.right{
+    background: white;
+    width: 70%;
+    height: 550px;
+    border-radius: 15px;
+    float: right !important;
+    justify-content: end;
+}
+.textLine{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.w-50{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 3px solid #1E0E62;
+    font-weight: 800;
+}
+.ww-50{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 3px solid grey;
+    opacity: 50%;
+}
+.textLine span{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.inputs{
+    display: flex !important;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.inputs div input{
+    border-radius: 25px;
+    width: 93%;
+    padding: 15px;
+    border: #EBEAED 2px solid;
+}
+.email, .pass{
+    width: 100%;
+}
+.pass{
+    margin: 35px 0px;
+}
+.create{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.create button{
+    color: white;
+    background: #25DAC5;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: 100%;
+}
+.auto{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textSpan{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0px;
+    opacity: 40%;
+}
+.flexEnd{
+    display: flex;
+    justify-content: end;
+}
+.create1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.create1 button{
+    background: #1DA1F2;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+}
+.footerWrapper{
+    background-color: #2F1893;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+break-inside: avoid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+column-gap: auto; 
+}
+.logo1 a{
+    font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.293px;
+color: white;
+}
+.contentBox p{
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+color: white;
+width: 160px;
+margin: 30px 0px;
+}
+ul li a {
+    color: white !important;
+}
+.contentBox1 ul li{
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin: 0px !important;
+color: white !important;
+opacity: 100%;
+}
